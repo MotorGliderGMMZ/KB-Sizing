@@ -1,0 +1,506 @@
+{
+     "Configuration": {
+          "Attributes": {}, 
+          "Inputs": {
+               "Aircraft name": {
+                    "unit": "", 
+                    "value": "Tail sizing"
+               }, 
+               "Engine location": {
+                    "unit": "", 
+                    "value": "wing"
+               }, 
+               "Number of engines": {
+                    "unit": "", 
+                    "value": 2.0
+               }, 
+               "Tail type": {
+                    "unit": "", 
+                    "value": "T tail"
+               }, 
+               "Wing position": {
+                    "unit": "", 
+                    "value": "low wing"
+               }
+          }
+     }, 
+     "Engine": {
+          "Attributes": {
+               "Diameter of the engine core": {
+                    "unit": "m", 
+                    "value": 0.3608383069133772
+               }, 
+               "Diameter of the engine nacelle": {
+                    "unit": "m", 
+                    "value": 1.3138648730231295
+               }, 
+               "Engine mass flow": {
+                    "unit": "kg/s", 
+                    "value": 178.69021738019842
+               }, 
+               "Engine thrust at Take-Off": {
+                    "unit": "N", 
+                    "value": 123199.70384999999
+               }, 
+               "Inlet diameter": {
+                    "unit": "m", 
+                    "value": 1.1034237599624017
+               }, 
+               "Length of the engine cowling": {
+                    "unit": "m", 
+                    "value": 3.0073518843454634
+               }, 
+               "Length of the engine nacelle": {
+                    "unit": "m", 
+                    "value": 4.009802512460618
+               }, 
+               "Specific gas generator power": {
+                    "unit": "W", 
+                    "value": 1.0416666666666665
+               }
+          }, 
+          "Inputs": {
+               "Air density at sea level": {
+                    "unit": "kg/m^3", 
+                    "value": 1.225
+               }, 
+               "Cowling position": {
+                    "unit": "", 
+                    "value": 0.75
+               }, 
+               "Cowling type": {
+                    "unit": "", 
+                    "value": "partial"
+               }, 
+               "Engine bypass ratio": {
+                    "unit": "", 
+                    "value": 3.0
+               }, 
+               "Engine longitudinal pos on fuselage": {
+                    "unit": "", 
+                    "value": 0.2
+               }, 
+               "Engine vertical pos on fuselage": {
+                    "unit": "", 
+                    "value": 0.01
+               }, 
+               "Engine-LE stagger": {
+                    "unit": "", 
+                    "value": -0.15
+               }, 
+               "Mechanical efficiency": {
+                    "unit": "", 
+                    "value": 0.75
+               }, 
+               "Nozzle efficiency": {
+                    "unit": "", 
+                    "value": 0.97
+               }, 
+               "Speed of sound at sea level": {
+                    "unit": "m/s", 
+                    "value": 340.3
+               }, 
+               "Temperature at Inlet of Turbine": {
+                    "unit": "K", 
+                    "value": 1375.0
+               }
+          }
+     }, 
+     "Evaluations": {
+          "Attributes": {
+               "AC wing position": {
+                    "unit": "m", 
+                    "value": 13.389639301655112
+               }, 
+               "Aircraft-less-tail AC position": {
+                    "unit": "m", 
+                    "value": 12.992175236008412
+               }, 
+               "Aircraft-less-tail CG position": {
+                    "unit": "m", 
+                    "value": 13.527546110460095
+               }, 
+               "Fuselage-Wing lift gradient": {
+                    "unit": "1/rad", 
+                    "value": 7.123113803950134
+               }, 
+               "Htp lift curve slope": {
+                    "unit": "1/rad", 
+                    "value": 4.680325772080861
+               }, 
+               "Wing downwash gradient on htp": {
+                    "unit": "", 
+                    "value": 0.2642999877708987
+               }, 
+               "Wing exposed surface": {
+                    "unit": "m^2", 
+                    "value": 70.85585342765353
+               }, 
+               "Wing lift curve slope": {
+                    "unit": "1/rad", 
+                    "value": 6.166212079971476
+               }, 
+               "Wing wetted surface": {
+                    "unit": "m^2", 
+                    "value": 77.42862475537672
+               }
+          }, 
+          "Inputs": {
+               "Htp airfoil efficiency factor": {
+                    "unit": "", 
+                    "value": 0.95
+               }, 
+               "Wing airfoil efficiency factor": {
+                    "unit": "", 
+                    "value": 0.95
+               }
+          }
+     }, 
+     "Fuselage": {
+          "Attributes": {
+               "Cylinder length": {
+                    "unit": "m", 
+                    "value": 16.504949752435394
+               }, 
+               "Nose Slenderness": {
+                    "unit": "", 
+                    "value": 1.2842911063593538
+               }, 
+               "Nose length": {
+                    "unit": "m", 
+                    "value": 5.137164425437415
+               }, 
+               "Tail divergence angle": {
+                    "unit": "deg", 
+                    "value": 23.90822114821717
+               }, 
+               "Tail length": {
+                    "unit": "m", 
+                    "value": 8.44
+               }
+          }, 
+          "Inputs": {
+               "Fuselage Diameter": {
+                    "unit": "m", 
+                    "value": 4.0
+               }, 
+               "Fuselage Length": {
+                    "unit": "m", 
+                    "value": 30.0
+               }, 
+               "Tail Slenderness": {
+                    "unit": "", 
+                    "value": 2.11
+               }, 
+               "Tail Up Angle": {
+                    "unit": "deg", 
+                    "value": 5.0
+               }
+          }
+     }, 
+     "Htp": {
+          "Attributes": {
+               "Horizontal tail Mean Aerodynamic Chord": {
+                    "unit": "m", 
+                    "value": 2.2492591659619707
+               }, 
+               "Horizontal tail arm": {
+                    "unit": "m", 
+                    "value": 18.822987591705754
+               }, 
+               "Horizontal tail reference surface": {
+                    "unit": "m^2", 
+                    "value": 22.461278617583435
+               }, 
+               "Horizontal tail root chord": {
+                    "unit": "m", 
+                    "value": 3.0278488772564995
+               }, 
+               "Horizontal tail span": {
+                    "unit": "m", 
+                    "value": 10.597471070397747
+               }, 
+               "Horizontal tail tip chord": {
+                    "unit": "m", 
+                    "value": 1.2111395509026
+               }, 
+               "Horizontal tail volume coefficient": {
+                    "unit": "", 
+                    "value": 1.461445957508175
+               }, 
+               "Htp aspect ratio": {
+                    "unit": "", 
+                    "value": 5.0
+               }, 
+               "Htp sweep at quarter chord": {
+                    "unit": "deg", 
+                    "value": 30.364134806317807
+               }, 
+               "Htp taper ratio": {
+                    "unit": "", 
+                    "value": 0.4
+               }
+          }, 
+          "Inputs": {
+               "Horizontal height of htp in percentage of vtp": {
+                    "unit": "", 
+                    "value": 1.0
+               }, 
+               "Span percentage for xFoil analysis": {
+                    "unit": "", 
+                    "value": 0.5
+               }
+          }
+     }, 
+     "Landing Gear": {
+          "Attributes": {
+               "Angle of tipback": {
+                    "unit": "deg", 
+                    "value": 14.099999999999966
+               }, 
+               "Lateral clearance angle": {
+                    "unit": "", 
+                    "value": 17.099999999999977
+               }, 
+               "Lateral clearance control": {
+                    "unit": "", 
+                    "value": "Lateral angle check is satisfied"
+               }, 
+               "Lateral pos of main gear": {
+                    "unit": "m", 
+                    "value": 3.6
+               }, 
+               "Longitudinal pos of main gear": {
+                    "unit": "m", 
+                    "value": 15.442750710384157
+               }, 
+               "Longitudinal pos of nose gear": {
+                    "unit": "m", 
+                    "value": 2.4
+               }, 
+               "Main landing gear length": {
+                    "unit": "m", 
+                    "value": 3.6
+               }, 
+               "Maximum tipback angle": {
+                    "unit": "deg", 
+                    "value": 28.013034483594833
+               }, 
+               "Nose landing gear length": {
+                    "unit": "m", 
+                    "value": 3.8000000000000003
+               }, 
+               "Tipback control": {
+                    "unit": "", 
+                    "value": "No changes needed"
+               }
+          }, 
+          "Inputs": {
+               "Landing gear height": {
+                    "unit": "m", 
+                    "value": 1.6
+               }, 
+               "Lateral gear position": {
+                    "unit": "", 
+                    "value": 1.8
+               }, 
+               "Main Gear position": {
+                    "unit": "", 
+                    "value": 0.6
+               }, 
+               "Main wheel radius": {
+                    "unit": "m", 
+                    "value": 0.5
+               }, 
+               "Nose Gear position": {
+                    "unit": "", 
+                    "value": 0.08
+               }, 
+               "Nose wheel radius": {
+                    "unit": "m", 
+                    "value": 0.3
+               }
+          }
+     }, 
+     "Performance": {
+          "Attributes": {}, 
+          "Inputs": {
+               "Aircraft cruise altitude": {
+                    "unit": "m", 
+                    "value": 10000.0
+               }, 
+               "Cruise Mach number": {
+                    "unit": "", 
+                    "value": 0.77
+               }, 
+               "Maximum takeoff weight": {
+                    "unit": "N", 
+                    "value": 422713.0
+               }, 
+               "Thrust to Weight ratio": {
+                    "unit": "", 
+                    "value": 0.29145
+               }, 
+               "Wing loading": {
+                    "unit": "kg / m^2", 
+                    "value": 509.68
+               }
+          }
+     }, 
+     "Vtp": {
+          "Attributes": {
+               "Percentage of rudder area free from Htp wake": {
+                    "unit": "", 
+                    "value": 1.0
+               }, 
+               "Vertical tail Mean Aerodynamic Chord": {
+                    "unit": "m", 
+                    "value": 3.5196780716131424
+               }, 
+               "Vertical tail arm": {
+                    "unit": "m", 
+                    "value": 14.384999999999408
+               }, 
+               "Vertical tail reference surface": {
+                    "unit": "m^2", 
+                    "value": 16.38210238854391
+               }, 
+               "Vertical tail root chord": {
+                    "unit": "m", 
+                    "value": 4.098255288864618
+               }, 
+               "Vertical tail span": {
+                    "unit": "m", 
+                    "value": 4.70274794397215
+               }, 
+               "Vertical tail tip chord": {
+                    "unit": "m", 
+                    "value": 2.868778702205233
+               }, 
+               "Vertical tail volume coefficient": {
+                    "unit": "", 
+                    "value": 0.10398041159174197
+               }, 
+               "Vtp aspect ratio": {
+                    "unit": "", 
+                    "value": 1.35
+               }, 
+               "Vtp sweep at quarter chord": {
+                    "unit": "deg", 
+                    "value": 37.5
+               }, 
+               "Vtp taper ratio": {
+                    "unit": "", 
+                    "value": 0.7
+               }
+          }, 
+          "Inputs": {
+               "Rudder chord ratio over root chord": {
+                    "unit": "", 
+                    "value": 0.35
+               }, 
+               "Span percentage for xFoil analysis": {
+                    "unit": "", 
+                    "value": 0.5
+               }
+          }
+     }, 
+     "Wing": {
+          "Attributes": {
+               "Aircraft Mach Dive Divergence": {
+                    "unit": "", 
+                    "value": 0.8
+               }, 
+               "Aircraft Reynolds number": {
+                    "unit": "", 
+                    "value": 22317786.768191557
+               }, 
+               "Aircraft speed at cruise altitude": {
+                    "unit": "m/s", 
+                    "value": 230.5654010102123
+               }, 
+               "Dihedral angle": {
+                    "unit": "deg", 
+                    "value": 2.9635865193682194
+               }, 
+               "Dynamic pressure at aircraft speed and altitude": {
+                    "unit": "Pa", 
+                    "value": 10955.339845711458
+               }, 
+               "Lift coefficient of aircraft in cruise condition": {
+                    "unit": "", 
+                    "value": 0.046523431237919806
+               }, 
+               "Static density at cruise altitude": {
+                    "unit": "kg/m^3", 
+                    "value": 0.4121616463351897
+               }, 
+               "Static pressure at cruise altitude": {
+                    "unit": "Pa", 
+                    "value": 26396.501085973203
+               }, 
+               "Static temperature at cruise altitude": {
+                    "unit": "K", 
+                    "value": 223.14999999999998
+               }, 
+               "Static viscosity at cruise altitude": {
+                    "unit": "", 
+                    "value": 1.4570412765974162e-05
+               }, 
+               "Sweep at quarter chord": {
+                    "unit": "deg", 
+                    "value": 20.364134806317807
+               }, 
+               "Wing Mean Aerodynamic Chord": {
+                    "unit": "m", 
+                    "value": 3.42185234788174
+               }, 
+               "Wing average thickness to chord ratio": {
+                    "unit": "", 
+                    "value": 0.18
+               }, 
+               "Wing position fraction of the cylinder": {
+                    "unit": "", 
+                    "value": 0.5
+               }, 
+               "Wing position fraction of the fuselage": {
+                    "unit": "", 
+                    "value": 0.4463213100551704
+               }, 
+               "Wing reference surface": {
+                    "unit": "m^2", 
+                    "value": 84.54326281918048
+               }, 
+               "Wing root chord": {
+                    "unit": "m", 
+                    "value": 4.746380853396478
+               }, 
+               "Wing span": {
+                    "unit": "m", 
+                    "value": 26.807046349104446
+               }, 
+               "Wing taper ratio": {
+                    "unit": "", 
+                    "value": 0.32891575966195535
+               }, 
+               "Wing tip chord": {
+                    "unit": "m", 
+                    "value": 1.5611594640398625
+               }
+          }, 
+          "Inputs": {
+               "Airfoil Mach technology parameter": {
+                    "unit": "", 
+                    "value": 1.0
+               }, 
+               "Aspect ratio": {
+                    "unit": "", 
+                    "value": 8.5
+               }, 
+               "Span percentage for xFoil analysis": {
+                    "unit": "", 
+                    "value": 0.5
+               }
+          }
+     }
+}

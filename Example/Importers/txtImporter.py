@@ -1,0 +1,3 @@
+class TxtImporter(object):
+
+    pass
